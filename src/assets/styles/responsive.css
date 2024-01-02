@@ -1,0 +1,61 @@
+@media (min-width: 992px) {
+  body {
+    --sb-track-color: #fff;
+    --sb-thumb-color: #5f5af6;
+    --sb-size: 2px;
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+
+  ::-webkit-scrollbar {
+    height: 4px;
+    /* height of horizontal scrollbar ← You're missing this */
+    width: 4px;
+    /* width of vertical scrollbar */
+  }
+
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 10px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 10px;
+  }
+
+  .ant-layout-sider-children>div::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  .ant-layout-sider-children>div {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    scrollbar-width: thin;
+  }
+
+  .card-scroll::-webkit-scrollbar {
+    width: var(--sb-size);
+  }
+
+  .card-scroll::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+  }
+
+  .card-scroll::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+  }
+
+}
+
+@media (max-width: 575px) {
+
+  .ant-card .ant-card-body,
+  .ant-pro-card .ant-pro-card-body,
+  .ant-pro-card .ant-pro-card-header {
+    padding-inline: 12px;
+  }
+
+}

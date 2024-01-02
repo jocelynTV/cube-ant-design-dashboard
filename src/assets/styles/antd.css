@@ -1,0 +1,15 @@
+.ant-space-vertical {
+  display: flex;
+}
+
+.ant-tree-title {
+  padding-left: 12px;
+}
+
+.stat-sub .ant-statistic-content-value-int {
+  font-size: 13px !important;
+}
+
+.ant-pro-global-footer {
+  margin-block-start: 0px;
+}

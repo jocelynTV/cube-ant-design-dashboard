@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "billing": "Billing",
+    "filemanager": "File Manager",
+    "products": "Products",
+    "users": "Users",
+    "profile": "Profile",
+    "setting": "Setting",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "forgotpassword": "Forgot Password",
+    "recoverpassword": "Recover Password",
+    "verifyaccount": "Verify Account",
+    "notification": "Notification"
+  }
+}
