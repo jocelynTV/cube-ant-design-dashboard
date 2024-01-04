@@ -1,0 +1,17 @@
+{
+  "menu": {
+    "dashboard": "Thống Kê",
+    "billing": "Thanh Toán",
+    "filemanager": "Quản Lý Tập Tin",
+    "products": "Sản Phẩm",
+    "users": "Nhân Viên",
+    "profile": "Cá Nhân",
+    "setting": "Cài Đặt",
+    "signin": "Đăng Phập",
+    "signup": "Đăng Ký",
+    "forgotpassword": "Quên Mật Khẩu",
+    "recoverpassword": "Lấy Lại Mật Khẩu",
+    "verifyaccount": "Xác Thực Tài Khoản",
+    "notification": "Thông báo"
+  }
+}
