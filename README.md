@@ -9,8 +9,8 @@ React-powered **100% FREE** Admin Dashboard Template for building rich user inte
     <img src="./images/light.png" alt="Cube Admin Template">
 </p>
 
-<!-- ### Demo
-Check out a [live demo](). -->
+### Demo
+Check out a [live demo](https://jocelyntv.github.io/cube-ant-design-dashboard).
 
 ## Key Features
 - 🚀 This solution allows you to reduce MVP development costs by up to 50%
