@@ -3,6 +3,19 @@ import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
+import translationVi from './locales/vi/translation.json';
+import translationENG from './locales/en/translation.json';
+
+//translations
+const resources = {
+  vi: {
+    translation: translationVi
+  },
+  en: {
+    translation: translationENG
+  }
+};
+
 i18n
   // load translation using http -> see /public/locales
   // learn more: https://github.com/i18next/i18next-http-backend
@@ -15,6 +28,8 @@ i18n
   // init i18next
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
+    resources,
+    lng: 'en',
     fallbackLng: 'en',
     debug: true
   });
