@@ -44,7 +44,7 @@ const CardInfo = () => {
                       <Image
                         width={50}
                         preview={false}
-                        src={`/images/${item.type}.svg`}
+                        src="https://cdn-icons-png.flaticon.com/128/349/349221.png"
                         alt={item.type}
                       />
                     </div>

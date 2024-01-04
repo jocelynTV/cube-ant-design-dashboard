@@ -18,7 +18,12 @@ const NotificationPassword = () => {
       <ProCard className="signin-card">
         <Result
           status="success"
-          icon={<Image preview={false} src="/images/email.png" />}
+          icon={
+            <Image
+              preview={false}
+              src="https://cdn-icons-png.flaticon.com/128/3062/3062634.png"
+            />
+          }
           subTitle="Please check your email to reset your password"
           extra={[
             <Button type="primary" key="signup">

@@ -311,6 +311,7 @@ const Main = () => {
           return [
             document.body.clientWidth > 1200 ? <SearchInput /> : undefined,
             <Avatar
+              size="large"
               onClick={() =>
                 appContext.changeMode(
                   appContext.mode === 'light' ? 'dark' : 'light'
@@ -319,8 +320,8 @@ const Main = () => {
               key="mode"
               src={
                 appContext.mode === 'light'
-                  ? '/images/light.png'
-                  : '/images/dark.png'
+                  ? 'https://cdn-icons-png.flaticon.com/64/4735/4735030.png'
+                  : 'https://cdn-icons-png.flaticon.com/64/4735/4735038.png'
               }
             />,
             <Dropdown
@@ -334,7 +335,7 @@ const Main = () => {
                         <Avatar
                           shape="square"
                           size="small"
-                          src="/images/vi.png"
+                          src="https://cdn-icons-png.flaticon.com/64/555/555515.png"
                         />
                         <Text>VI</Text>
                       </Space>
@@ -347,7 +348,7 @@ const Main = () => {
                         <Avatar
                           shape="square"
                           size="small"
-                          src="/images/en.png"
+                          src="https://cdn-icons-png.flaticon.com/64/555/555526.png"
                         />
                         <Text>EN</Text>
                       </Space>
@@ -361,8 +362,11 @@ const Main = () => {
             >
               <Avatar
                 shape="square"
+                size="large"
                 src={
-                  i18n.language === 'vi' ? '/images/vi.png' : '/images/en.png'
+                  i18n.language === 'vi'
+                    ? 'https://cdn-icons-png.flaticon.com/64/555/555515.png'
+                    : 'https://cdn-icons-png.flaticon.com/64/555/555526.png'
                 }
               />
             </Dropdown>

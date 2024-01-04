@@ -8,11 +8,7 @@ import { dateToFormat } from 'utils';
 const cards = Array.from(Array(3), () => ({
   number: faker.finance.accountNumber(4),
   name: faker.finance.accountName(),
-  logo: faker.helpers.arrayElement([
-    '/images/mastercard.svg',
-    '/images/visa.png',
-    '/images/jcb.png'
-  ]),
+  logo: 'https://cdn-icons-png.flaticon.com/128/349/349221.png',
   type: 'card',
   expire: dateToFormat(faker.date.future(), 'MM/YY')
 }));

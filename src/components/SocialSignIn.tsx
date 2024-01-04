@@ -1,5 +1,6 @@
 import React from 'react';
-import { Avatar, Button, Divider, Space } from 'antd';
+import { FacebookOutlined, GoogleOutlined } from '@ant-design/icons';
+import { Button, Divider, Space } from 'antd';
 
 interface Props {
   title: string;
@@ -10,12 +11,8 @@ const SocialSignIn: React.FC<Props> = ({ title }) => {
     <>
       <Divider plain>{title}</Divider>
       <Space size="large">
-        <Button icon={<Avatar size={16} src="/images/google.png" />}>
-          Google
-        </Button>
-        <Button icon={<Avatar size={16} src="/images/facebook.png" />}>
-          Facebook
-        </Button>
+        <Button icon={<FacebookOutlined />}>Google</Button>
+        <Button icon={<GoogleOutlined />}>Facebook</Button>
       </Space>
     </>
   );
