@@ -393,7 +393,7 @@ const Main = () => {
               {
                 key: 'github',
                 title: 'Github',
-                href: '',
+                href: 'https://github.com/jocelynTV/cube-ant-design-dashboard',
                 blankTarget: true
               }
             ]}
