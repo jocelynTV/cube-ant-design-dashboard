@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/cube-ant-design-dashboard/static/css/main.8e2c545e.css",
-    "main.js": "/cube-ant-design-dashboard/static/js/main.54731074.js",
-    "static/js/496.6ee4f152.chunk.js": "/cube-ant-design-dashboard/static/js/496.6ee4f152.chunk.js",
+    "main.css": "/cube-ant-design-dashboard/static/css/main.515dcce3.css",
+    "main.js": "/cube-ant-design-dashboard/static/js/main.afacecf0.js",
+    "static/js/522.04c22dc8.chunk.js": "/cube-ant-design-dashboard/static/js/522.04c22dc8.chunk.js",
     "index.html": "/cube-ant-design-dashboard/index.html",
-    "static/media/getFetch.cjs": "/cube-ant-design-dashboard/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.8e2c545e.css.map": "/cube-ant-design-dashboard/static/css/main.8e2c545e.css.map",
-    "main.54731074.js.map": "/cube-ant-design-dashboard/static/js/main.54731074.js.map",
-    "496.6ee4f152.chunk.js.map": "/cube-ant-design-dashboard/static/js/496.6ee4f152.chunk.js.map"
+    "static/media/getFetch.cjs": "/cube-ant-design-dashboard/static/media/getFetch.40f37ddea2378391108f.cjs"
   },
   "entrypoints": [
-    "static/css/main.8e2c545e.css",
-    "static/js/main.54731074.js"
+    "static/css/main.515dcce3.css",
+    "static/js/main.afacecf0.js"
   ]
 }
