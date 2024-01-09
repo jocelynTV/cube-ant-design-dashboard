@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Typography, Form, Input, Result } from 'antd';
 import { LockOutlined } from '@ant-design/icons';
 import { useMutation, useQuery } from '@tanstack/react-query';
-import { useNavigate } from 'react-router';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
 import { ProCard } from '@ant-design/pro-components';
 
 import {
