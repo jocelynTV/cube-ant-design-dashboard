@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cube-ant-design-dashboard/static/css/main.515dcce3.css",
-    "main.js": "/cube-ant-design-dashboard/static/js/main.afacecf0.js",
-    "static/js/522.04c22dc8.chunk.js": "/cube-ant-design-dashboard/static/js/522.04c22dc8.chunk.js",
-    "index.html": "/cube-ant-design-dashboard/index.html",
-    "static/media/getFetch.cjs": "/cube-ant-design-dashboard/static/media/getFetch.40f37ddea2378391108f.cjs"
+    "main.css": "/static/css/main.515dcce3.css",
+    "main.js": "/static/js/main.a9a8a12d.js",
+    "static/js/211.83a7b2b1.chunk.js": "/static/js/211.83a7b2b1.chunk.js",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs"
   },
   "entrypoints": [
     "static/css/main.515dcce3.css",
-    "static/js/main.afacecf0.js"
+    "static/js/main.a9a8a12d.js"
   ]
 }
